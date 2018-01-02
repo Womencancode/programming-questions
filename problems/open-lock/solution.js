@@ -29,6 +29,7 @@ const getChildNodes = (root) => {
  * Constructs a tree dynamically for each lock combination
  * Traverse the tree using BFS and look for the target
  * 
+ * @author Janicklas Ralph
  * @param {String[]} deadends
  * @param {String} target
  * @return {Number}
