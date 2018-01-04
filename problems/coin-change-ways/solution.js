@@ -7,7 +7,7 @@
  * @param {Number[]} coins - The coins available
  * @return {Number} - Number of ways to make change
  */
-function getWays(n, coins) {
+function main(n, coins) {
   // Initialize an array of size the value of n
   // This is used to compute the output bottom up
   const initArr = Array(n + 1).fill(0);
